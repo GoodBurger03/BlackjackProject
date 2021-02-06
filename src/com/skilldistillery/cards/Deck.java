@@ -29,8 +29,15 @@ public class Deck {
     Collections.shuffle(cards);
   }
   
-  public Card dealCard() {
+  public Card dealCard(Hand hand) {
     return cards.remove(0);
   }
+
+/**
+ * @return the cards
+ */
+public List<Card> getCards() {
+	return cards;
+}
   
 }
