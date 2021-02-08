@@ -9,8 +9,8 @@ public class BlackJackApp {
 
 	private BlackJackPlayer player;
 	private Dealer dealer;
-	//private int players;
-	//private Player[] playerS;
+	//private int numPlayers;
+	//private Player[] played;
 
 	Scanner kb = new Scanner(System.in);
 
@@ -56,7 +56,7 @@ public class BlackJackApp {
 //			System.out.print("How many people are playing (1-6)? ");
 //			players = kb.nextInt();
 //
-//		} while (players > 6 || players < 0);
+//		} while (numPlayers < 6 || numPlayers > 0);
 //
 //		playerS = new Player[players];
 //		Deck deck = new Deck();
