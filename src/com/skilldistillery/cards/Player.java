@@ -17,7 +17,7 @@ public void setName(String name) {
 	this.name = name;
 }
 
-
+// toString
 @Override
 public String toString() {
 	  StringBuilder builder = new StringBuilder();
